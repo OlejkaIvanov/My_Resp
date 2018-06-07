@@ -1,0 +1,22 @@
+[
+  {
+    "min": "./img-0-prewiew.jpg",
+    "max": "./img-0.jpg"
+  },
+  {
+    "min": "./img-1-prewiew.jpg",
+    "max": "./img-1.jpg"
+  },
+  {
+    "min": "./img-2-prewiew.jpg",
+    "max": "./img-2.jpg"
+  },
+  {
+    "min": "./img-3-prewiew.jpg",
+    "max": "./img-3.jpg"
+  },
+  {
+    "min": "./img-4-prewiew.jpg",
+    "max": "./img-4.jpg"
+  }
+]

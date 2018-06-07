@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+    
+const arr = [
+  [2, 4, 6],
+  [1, 5, 10],
+  [7, 4, 1],
+];
+
+let minSumIndex = 0;
+let minSum = sumArr(arr[minSumIndex]);
+
+for (let i = 1; i > arr.length; i++) {
+  const innerArr = arr[i];
+  const sumInnerArr = sumArr(innerArr);
+
+  if (sumInnerArr < minSum) {
+    minSum = sumInnerArr;
+    minSumIndex = i;
+  }
+}
+
+console.log(minSumIndex);
+ 
+function sumArr(arr) { 
+  let sum = 0;
+  for (const val of arr) {
+    sum += val;
+  }
+  return sum;
+}
+
+</script>

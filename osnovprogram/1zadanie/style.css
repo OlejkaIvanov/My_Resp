@@ -1,0 +1,11 @@
+body {
+    background-image: url(projectbody.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.valuta {
+    position: relative;
+    top: 320px;
+    left: 625px;
+}

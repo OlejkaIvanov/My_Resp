@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+    
+var userNumber = 25; // число полученое от пользователя
+var list = new Array;
+
+nextPrime:
+for (var i = 2; i <= 1000; i++) {
+	for (var j = 2; j < i; j++) {
+	  if (i % j == 0) continue nextPrime;
+	}
+	list.push(i);
+}
+
+var string = '';
+if (userNumber > 0) {
+	for (var i = 0; i < userNumber; i++) {
+		string = string + list[i] + ', ';
+	}
+}
+
+var result = string.substring(0, string.length - 2);
+
+console.log(result);
+
+</script>
